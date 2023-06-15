@@ -1,0 +1,203 @@
+html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    font-size: 13px;
+    color: #171B30 !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+#root {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.ant-layout,
+.app-layout {
+    height: 100%;
+    width: 100%;
+}
+
+.page-layout {
+    margin: 24px 20px;
+    padding: 24px;
+    min-height: 400px;
+    border-radius: 4px;
+}
+
+/* Login */
+.center-form {
+    width: 360px;
+    margin: 0px auto;
+    padding: 40px;
+    background-color: #1e1e2d;
+    border-radius: 10px;
+}
+
+.login-height {
+    min-height: 100%;
+    background-image: url(./assets/Simple\ Shiny.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.login-button {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 30px;
+}
+
+/* Login */
+
+/* Sidebar */
+.c-logo {
+    padding: 15px;
+    height: 64px;
+    width: 100%;
+    background-size: contain;
+    background-color: #1E1E2D;
+
+}
+
+.s-sidebar {
+    background-color: #1E1E2D;
+}
+
+.s-menu {
+    background-color: #1E1E2D;
+    color: hsla(0, 0%, 100%, .65);
+}
+
+
+.s-menu :hover {
+    color: hsla(0, 0%, 100%, .65);
+    background-color: #2C2C42 !important;
+}
+
+.ant-menu-item-selected {
+    background-color: #2C2C42 !important;
+    color: hsla(0, 0%, 100%, .65) !important;
+}
+
+.ant-layout .ant-layout-sider {
+    background-color: #1E1E2D !important;
+}
+
+.ant-layout-sider-trigger {
+    background-color: #1e1e2d !important;
+}
+
+/* Sidebar */
+
+/* Top-Header */
+.s-top-header>.site-layout-background {
+    background-color: white !important;
+}
+
+/* Top-Header */
+
+/* Website */
+
+.ant-tag {
+    cursor: pointer;
+    line-height: 25px;
+    width: 84px;
+    text-align: center;
+}
+
+/* Website */
+
+
+
+/* Main scroll */
+.s-content {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* page-loader */
+
+
+
+/* page-loader */
+
+/* dashboard */
+.s-dashboard-card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    border-radius: 8px;
+}
+
+/* dashboard */
+
+
+
+
+.s-action {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    /* gap: 10px; */
+}
+
+
+.s-header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.s-header-icon {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 50px;
+    font-size: 23px;
+    color: #171B30;
+    gap: 20px;
+}
+
+.s-input {
+    pointer-events: none;
+}
+
+.edit-icon {
+    color: #565674;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 7px;
+}
+
+
+.icon-bg {
+    background: linear-gradient(to bottom right, #7703c7, rgb(241, 65, 108));
+}
+
+.logo-wrapper{
+    height: 64px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.logo-wrapper > .c-responsive-logo{
+    height: 46px;
+}
+.ant-list-item.ant-list-item-no-flex > div > span{
+    float: right;
+}
